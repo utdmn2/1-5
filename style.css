@@ -6,9 +6,19 @@
 
 header {
   border-bottom: 1px solid black;
+  text-align: center;
+  padding: 20px 0;
 }
 
 .nav-list {
-  display: flex;
-  
+  text-align: center;
+  padding: 15px 20px;
+  margin: 0 auto;
+  border-bottom: 1px solid black;
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px
 }
